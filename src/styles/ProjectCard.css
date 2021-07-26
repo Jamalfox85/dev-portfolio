@@ -3,6 +3,7 @@
   height: 300px;
   width: 250px;
   border: solid 2px black;
+  margin: 1rem;
 }
 .project-header {
   height: 15%;
