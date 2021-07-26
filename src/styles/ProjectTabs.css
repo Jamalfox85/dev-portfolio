@@ -1,3 +1,7 @@
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
 .project-tab-wrapper {
   height: 50px;
   width: 400px;
@@ -11,4 +15,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: gray;
+}
+.project-wrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+}
+.active-tab {
+  border: 1px 1px 1px 0;
+  background-color: white;
+}
+.active-section {
+  display: flex;
 }

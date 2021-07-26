@@ -42,19 +42,19 @@ function Contact() {
         </div>
         <div className="card-form">
           <form className="contact-form" onSubmit={sendEmail}>
-            <label for="subject">
+            <label htmlFor="subject">
               Subject:
               <input type="text" name="subject" id="subject" />
             </label>
-            <label for="name">
+            <label htmlFor="name">
               Name:
               <input type="text" name="name" id="name" />
             </label>
-            <label for="email">
+            <label htmlFor="email">
               Email:
               <input type="text" name="email" id="email" />
             </label>
-            <label for="message">
+            <label htmlFor="message">
               Message:
               <textarea
                 type="textbox"

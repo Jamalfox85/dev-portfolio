@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import "../styles/PortfolioProjects.css";
 
 function DevProjects() {
   return (
