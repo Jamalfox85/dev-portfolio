@@ -1,0 +1,32 @@
+.contact {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-wrapper {
+  position: relative;
+  height: 90%;
+  width: 90%;
+  display: flex;
+}
+.card-text {
+  width: 50%;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-form {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

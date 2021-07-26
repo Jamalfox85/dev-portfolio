@@ -1,0 +1,32 @@
+.home {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-text {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  font-size: 64px;
+  margin: 2rem;
+}
+.sub-text {
+  font-size: 24px;
+}
+.home-img {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-text {
+  font-size: 250px;
+}
