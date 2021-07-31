@@ -18,6 +18,7 @@
   background-color: gray;
 }
 .project-wrapper {
+  width: 80vw;
   display: none;
   justify-content: center;
   align-items: center;

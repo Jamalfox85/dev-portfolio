@@ -37,10 +37,13 @@ function ProjectsTab() {
             : "project-wrapper"
         }
       >
-        <h1>These are Development Projects</h1>
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCard
+          header={"test"}
+          img={"../assets/selfcarethumbnail.png"}
+          tags={"HTML, CSS, JS, React.js"}
+          demolink={""}
+          githublink={""}
+        />
         <ProjectCard />
       </div>
       <div
@@ -50,7 +53,6 @@ function ProjectsTab() {
             : "project-wrapper"
         }
       >
-        <h1>These are Design Projects</h1>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

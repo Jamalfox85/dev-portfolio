@@ -9,7 +9,7 @@ function Home() {
         <h5 className="sub-text">Web Developer and Designer</h5>
       </div>
       <div className="home-img">
-        <h1 className="img-text">JF</h1>
+        <div className="img-text"></div>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ function Navbar() {
           Projects
         </NavLink>
         <NavLink to="/" className="nav-link">
-          <button>Contact</button>
+          <div className="contact-btn">Contact</div>
         </NavLink>
       </div>
     </div>

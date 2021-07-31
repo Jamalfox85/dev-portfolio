@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: black;
+  color: white;
 }
 .home-text {
   height: 400px;
@@ -28,5 +30,7 @@
   align-items: center;
 }
 .img-text {
-  font-size: 250px;
+  height: 312px;
+  width: 247px;
+  background-image: url("../assets/Portfolio\ Logo.png");
 }
