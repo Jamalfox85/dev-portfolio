@@ -1,11 +1,19 @@
 .about {
-  position: relative;
-  height: 300px;
+  height: 400px;
   width: 100%;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../assets/galaxybg.jpg");
+  background-size: cover;
+  color: #fff;
 }
 .about-text {
   padding: 2rem;
+  border-radius: 25px;
+  background-color: rgba(229, 78, 208, 0.2);
+}
+h1 {
+  margin: 15px;
 }

@@ -9,27 +9,42 @@
 }
 .project-tab {
   height: 100%;
-  width: 50%;
-  border: solid 1px black;
-  border-radius: 15px 15px 0 0;
+  width: 143px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  border-left: solid 2px #fff;
+  border-top: solid 2px #fff;
+  border-right: solid 2px #fff;
+  border-radius: 25px 25px 0 0;
+  font-size: 16px;
+  font-family: "Arvo", serif;
+  background-color: rgba(0, 7, 111, 0.3);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.project-tab:hover {
+  background-color: rgba(0, 7, 111, 1);
+}
+.active-tab {
+  background-color: rgba(229, 78, 208, 0.5);
+  opacity: 1;
+}
+.active-tab:hover {
+  background-color: rgba(229, 78, 208, 0.5);
 }
 .project-wrapper {
   width: 80vw;
   display: none;
+  position: relative;
+  z-index: 2;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: solid 2px black;
-}
-.active-tab {
-  border: 1px 1px 1px 0;
-  background-color: white;
+  border: solid 2px #fff;
+  padding: 100px 0;
 }
 .active-section {
   display: flex;

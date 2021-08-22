@@ -23,24 +23,22 @@ function Contact() {
       );
     e.target.reset();
     alert(
-      "Thanks for submitting a message! I'll respond back to your message within the next 24 hours"
+      "Thanks for submitting a message! I'll respond back within the next 24 hours"
     );
   }
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
+      <div className="section-tag">Contact Me!</div>
       <div className="contact-wrapper">
-        <div className="card-text">
-          <h1>Contact Contact Contact</h1>
-          <h5>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English.
-          </h5>
+        <div className="planet-img"></div>
+        <div className="card-text-wrapper">
+          <h1 className="card-text">
+            Interested in what you've seen so far? <br /> <br />
+            Let's Connect!
+          </h1>
         </div>
-        <div className="card-form">
+        <div className="card-form-wrapper">
           <form className="contact-form" onSubmit={sendEmail}>
             <label htmlFor="subject">
               Subject:
@@ -56,15 +54,11 @@ function Contact() {
             </label>
             <label htmlFor="message">
               Message:
-              <textarea
-                type="textbox"
-                name="message"
-                id="message"
-                rows="10"
-                cols="30"
-              />
+              <textarea type="textbox" name="message" id="message" rows="10" />
             </label>
-            <input type="submit" value="Submit" />
+            <div className="contact-submit-btn">
+              <input type="submit" value="Submit" />
+            </div>
           </form>
         </div>
       </div>

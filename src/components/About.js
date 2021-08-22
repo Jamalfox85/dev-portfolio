@@ -3,19 +3,17 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div className="about">
-      <div className="section-tag">About</div>
+    <div className="about" id="about">
+      <div className="section-tag">About Me!</div>
       <div className="about-text">
+        <h1>Hi!</h1>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          My name is Jamal and I'm a freelance web developer and designer. From
+          a young age I've had an appreciation for both technology and
+          aesthetics. It only made sense that as I grew I woud gravitate to a
+          career that combined the two. It's my goal to bring cohesive
+          aesthetics to the web and transform blank HTML pages into a fully
+          functional, and beautifully designed, web sites.
         </p>
       </div>
     </div>

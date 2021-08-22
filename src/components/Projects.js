@@ -4,7 +4,7 @@ import ProjectsTab from "./ProjectsTab";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="section-tag">Projects</div>
       <div className="project-main-wrapper">
         <ProjectsTab />

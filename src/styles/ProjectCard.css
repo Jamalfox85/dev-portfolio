@@ -1,35 +1,75 @@
 .project-card-wrapper {
   position: relative;
-  height: 300px;
+  height: 275px;
   width: 250px;
-  border: solid 2px black;
   margin: 1rem;
+  border: solid 2px #fff;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.card-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 .project-header {
   height: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: pink;
+  background-color: rgba(0, 7, 111, 0.3);
 }
 .project-image {
-  height: 60%;
+  height: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(214, 120, 136);
+  background-color: rgba(214, 120, 136, 0.1);
+  background-size: cover;
+  background-position: center;
 }
 .project-tags {
   height: 10%;
+  width: 100%;
+  bottom: 15%;
   display: flex;
+  position: absolute;
   justify-content: center;
   align-items: center;
-  background-color: rgb(235, 90, 114);
+  background-color: rgba(0, 7, 111, 0.5);
+  border: solid 2px #fff;
 }
 .project-buttons {
-  height: 15%;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.demo-link,
+.github-link {
+  height: 100%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(228, 21, 55);
+  border: solid 1px #fff;
+}
+.demo-link {
+  background-color: rgba(229, 78, 208, 0.5);
+}
+.github-link {
+  background-color: rgba(0, 7, 111, 0.5);
+}
+.demo-link:hover {
+  background-color: rgba(229, 78, 208, 0.8);
+  color: #fff;
+  font-weight: bold;
+}
+.github-link:hover {
+  background-color: rgba(0, 7, 111, 0.8);
+  color: #fff;
+  font-weight: bold;
 }
