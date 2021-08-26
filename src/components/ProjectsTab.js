@@ -16,8 +16,8 @@ function ProjectsTab() {
   };
 
   return (
-    <div className="project-content">
-      <div className="project-tab-wrapper">
+    <div className="project-content fade-in">
+      <div className="project-tab-wrapper fade-in">
         <div
           className={
             toggleState === 1 ? "project-tab active-tab" : "project-tab"

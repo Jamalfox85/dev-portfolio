@@ -6,10 +6,11 @@
   top: 0;
   left: 0;
   z-index: -2;
-  background-image: url("../assets/galaxybg.jpg");
+  /* background-image: url("../assets/galaxybg.jpg"); */
   background-size: cover;
   background-position: center center;
   transform: translateZ(-1px) scale(2);
+  background-color: black;
 }
 .home {
   height: 100vh;
@@ -24,6 +25,7 @@
   overflow: hidden;
 }
 .home-wrapper {
+  height: 100vh;
   width: 50%;
   display: flex;
   justify-content: space-evenly;
@@ -37,6 +39,10 @@
   justify-content: center;
   align-items: center;
   font-family: "Arvo", serif;
+  position: absolute;
+  z-index: 2;
+  top: -20%;
+  left: 25px;
 }
 .main-text {
   font-size: 64px;
@@ -45,16 +51,56 @@
 .sub-text {
   font-size: 32px;
 }
+.hero-planet-wrapper {
+  height: 50vh;
+  width: 75vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.hero-planet {
+  height: 1000px;
+  width: 1000px;
+  bottom: 0;
+  right: 0;
+  background-image: url("../assets/hero-planet.jpg");
+  background-position: center top;
+  background-size: cover;
+}
 .home-img {
   height: 100%;
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: -15%;
+  right: 20px;
 }
 .img-text {
   height: 312px;
   width: 247px;
   background-image: url("../assets/Portfolio\ Logo.png");
   background-size: cover;
+  position: absolute;
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 12s linear infinite;
+  -moz-animation: rotating 12s linear infinite;
+  -ms-animation: rotating 12s linear infinite;
+  -o-animation: rotating 12s linear infinite;
+  animation: rotating 12s linear infinite;
 }

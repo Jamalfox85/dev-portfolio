@@ -29,8 +29,8 @@ function Contact() {
 
   return (
     <div className="contact" id="contact">
-      <div className="section-tag">Contact Me!</div>
-      <div className="contact-wrapper">
+      <div className="section-tag fade-in">Contact Me!</div>
+      <div className="contact-wrapper fade-in">
         <div className="planet-img"></div>
         <div className="card-text-wrapper">
           <h1 className="card-text">

@@ -43,6 +43,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border-radius: 25px;
+  background-color: rgba(0, 7, 111, 0.2);
   border: solid 2px #fff;
   padding: 100px 0;
 }

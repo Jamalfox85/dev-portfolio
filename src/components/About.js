@@ -4,9 +4,9 @@ import "../styles/About.css";
 function About() {
   return (
     <div className="about" id="about">
-      <div className="section-tag">About Me!</div>
-      <div className="about-text">
-        <h1>Hi!</h1>
+      <div className="section-tag fade-in">About Me!</div>
+      <div className="about-text fade-in">
+        <h1 className="about-text-hi">Hello!</h1>
         <p>
           My name is Jamal and I'm a freelance web developer and designer. From
           a young age I've had an appreciation for both technology and
